@@ -1,0 +1,136 @@
+.blackpanel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  color: white;
+  font-size: small;
+}
+
+.blackpanel .hide {
+  opacity: 0;
+}
+
+.blackpanel a {
+  color: white;
+}
+
+.blackpanel .panelflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5%;
+  background-color: white;
+  position: fixed;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar .nav3 svg {
+  width: 20px;
+  height: 20px;
+}
+
+#navbar .nav1 {
+  width: 30%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#navbar .nav2 {
+  width: 20%;
+}
+
+#navbar .nav3 {
+  width: 30%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+#images {
+  width: 100%;
+}
+
+#images .container-fluid {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+}
+
+#images .container-fluid div {
+  width: 30%;
+}
+
+#images .container-fluid div img {
+  width: 100%;
+  height: 450px;
+}
+
+#images .bold {
+  width: 60%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#images .bold h2 {
+  color: black;
+  font-size: 2.5rem;
+}
+
+#images .bold p {
+  color: black;
+  font-size: medium;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
